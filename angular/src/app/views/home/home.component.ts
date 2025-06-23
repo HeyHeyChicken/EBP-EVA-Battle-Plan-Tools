@@ -16,6 +16,6 @@ import { MessageComponent } from '../../shared/message/message.component';
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.scss'],
   standalone: true,
-  imports: [GridModule, TranslateModule, MessageComponent],
+  imports: [GridModule, TranslateModule, MessageComponent]
 })
 export class HomeComponent {}
